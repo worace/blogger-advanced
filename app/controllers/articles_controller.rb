@@ -41,11 +41,11 @@ class ArticlesController < ApplicationController
     flash[:notice] = "#{article} was destroyed."
     redirect_to articles_path
   end
-  
+
   private
 
   def article_params
     params.require(:article).permit(:title, :body, :author_id)
   end
-  
+
 end
