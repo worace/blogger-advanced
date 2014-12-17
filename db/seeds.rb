@@ -6,6 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Author.generate_samples(10)
-Tag.generate_samples(10)
-Article.generate_samples(10)
+Author.generate_samples(13)
+Tag.generate_samples(13)
+Article.generate_samples(13)
+
+
+
